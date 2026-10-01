@@ -1,70 +1,50 @@
-# 🏢 Office Desk Booking System
+# Office Desk Booking System 🏢
 
-A responsive **Office Desk Booking System** built using **HTML, CSS, JavaScript, and React.js**.  
-This project helps employees view available desks, book desks for a selected date, manage their bookings, and allows administrators to monitor desk usage.
+A    **React.js project** that allows employees to book office desks.
 
-## 🚀 Features
+## Features
 
-### 👤 Employee Dashboard
-- View available and booked desks
-- Select a booking date
-- Search for desks
-- Filter desks by floor
-- Filter desks by zone
-- View desk details
-- Book an available desk
-- Cancel existing bookings
-- View booking history
-- Responsive design
+* View available desks
+* View booked desks
+* Select a date
+* Book a desk
+* View my bookings
+* Cancel a booking
+* Simple and responsive design
 
-### 🛠️ Admin Dashboard
-- View total number of desks
-- View available desks
-- View desks booked today
-- View total bookings
-- View today's booking details
-- Monitor employee desk usage
+## Technologies Used
 
-### 💾 Data Storage
-- Uses **Browser LocalStorage**
-- Bookings remain available after refreshing the page
-- No backend or database required
+* React.js
+* JavaScript
+* HTML
+* CSS
 
-## 🖥️ Technologies Used
+## How to Run
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- React.js
-- React Hooks
-- LocalStorage
-- Vite
+```bash
+npm install
+npm start
+```
 
-## 📂 Project Structure
+The project will open in your browser.
 
-```text
-office-desk-booking/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── DeskCard.js
-│   │   ├── BookingModal.js
-│   │   ├── BookingList.js
-│   │   └── StatsCard.js
-│   │
-│   ├── data/
-│   │   └── desks.js
-│   │
-│   ├── pages/
-│   │   ├── Dashboard.js
-│   │   └── AdminDashboard.js
-│   │
-│   ├── App.js
-│   ├── App.css
-│   └── main.js
-│
-├── package.json
-└── README.md
+## How It Works
+
+1. Select an available desk.
+2. Choose a date.
+3. Click **Book Desk**.
+4. View your booking under **My Bookings**.
+5. Cancel the booking when needed.
+
+## Future Improvements
+
+* User Login/Register
+* Multiple user support
+* Firebase/Supabase database
+* Admin dashboard
+* Booking history
+* Prevent double booking
+
+## Author
+
+**Jeneka A. D**
